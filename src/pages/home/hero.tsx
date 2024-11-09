@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
 import { RxArrowTopRight } from "react-icons/rx";
-import heroVideo from "@/assets/video/heroVideo.webm";
+import heroVideo from "@/assets/video/video.mp4";
 
 const Hero = () => {
   return (
