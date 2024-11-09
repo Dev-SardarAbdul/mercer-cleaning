@@ -15,9 +15,9 @@ const Township = () => {
 
           return (
             <div
-              className={`${suburbData.length - 1 == index && "border-r"} ${
-                index % 3 ? "lg:border-l" : ""
-              }  ${index === 12 ? "border-b-none border-r" : "border-b"} ${
+              className={` ${index % 3 ? "lg:border-l" : ""}  ${
+                index === 12 ? "border-b-none border-r" : "border-b"
+              } ${
                 index % 2 ? "" : "max-sm:border-r-transparent max-lg:border-r"
               }  border-[#D9D9D9]  sm:px-4 py-4 sm:py-8`}
               key={index}
