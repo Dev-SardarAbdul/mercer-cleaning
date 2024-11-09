@@ -7,9 +7,9 @@ const Hero = () => {
     <div className="relative flex flex-col justify-between min-h-[80vh] sm:min-h-screen pt-5 pb-9 isolate">
       <div className="absolute top-0 left-0 w-full z-[-1] h-full bg-heroBg bg-cover bg-center bg-no-repeat">
         <video
-          muted
           autoPlay
           loop
+          muted
           playsInline
           className="object-cover w-full h-full"
         >
